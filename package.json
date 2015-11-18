@@ -6,6 +6,9 @@
   "scripts": {
     "test": "test"
   },
+  "bin": {
+    "grabvid": "bin/grabvid.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adrianblynch/grabvid.git"
