@@ -1,0 +1,23 @@
+{
+  "name": "grabvid",
+  "version": "0.0.1",
+  "description": "Grabs videos from Youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianblynch/grabvid.git"
+  },
+  "author": "Adrian Lynch (adi_ady_ade@hotmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianblynch/grabvid/issues"
+  },
+  "homepage": "https://github.com/adrianblynch/grabvid#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "youtube-dl": "^1.10.5"
+  }
+}
