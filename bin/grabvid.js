@@ -2,15 +2,10 @@
 
 'use strict'
 
-console.log("Called via bin")
-
 const grabvid = require('../')
-const args = require('commander')
 
-args
-.option('--videoId, <videoId>', 'The video ID or full URL')
-.parse(process.argv)
+if (process.argv[2] === undefined) {
+	process.exit(0)
+}
 
-console.log(__dirname);
-
-grabvid(args.videoId)
+grabvid(process.argv[2])

@@ -1,8 +1,6 @@
 'use strict'
 
-module.exports = function (videoId, directory) {
-
-	console.log("Called via lib")
+module.exports = function (videoId) {
 
 	const ytdl = require('youtube-dl')
 	const path = require('path')
@@ -16,7 +14,7 @@ module.exports = function (videoId, directory) {
 
 	video.on('info', info => {
 		size = info.size
-		filePath = path.join(__dirname, 'videos', info._filename)
+		filePath = path.join(process.cwd(), info._filename)
 		video.pipe(fs.createWriteStream(filePath))
 	})
 
