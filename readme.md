@@ -16,4 +16,5 @@ Videos are saved in the current directory.
 
 ## Todo
 
-- Add to npm 
+- Add to npm
+- Update 'Install & usage' with global install and usage
