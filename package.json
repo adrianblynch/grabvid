@@ -1,7 +1,7 @@
 {
   "name": "grabvid",
-  "version": "0.0.1",
-  "description": "Grabs videos from Youtube",
+  "version": "0.0.2",
+  "description": "Grabs videos from Youtube and saves them locally",
   "main": "index.js",
   "scripts": {
     "test": "test"
