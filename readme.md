@@ -1,20 +1,29 @@
 # Grabvid
 
-Given a Youtube video ID, download to local drive
+Given a Youtube video ID, downloads it locally for watching offline.
 
 ## Install & usage
+
+### npm
+
+`npm install -g grabvid`
+
+Why globally? Because my usage of this is generally to download a video into my current directory with:
+
+`grabvid dQw4w9WgXcQ`
+
+### GitHub
 
 `git clone https://github.com/adrianblynch/grabvid`
 
 `cd grabvid`
 
-`node bin/grabvid xxxxxxx`
+`node bin/grabvid dQw4w9WgXcQ`
 
-Where _xxxxxxx_ is the v query parameter from a Youtube video URL.
+Where _dQw4w9WgXcQ_ is the v query parameter of a Youtube video URL.
 
 Videos are saved in the current directory.
 
 ## Todo
 
-- Add to npm
-- Update 'Install & usage' with global install and usage
+- Figure out the errors for some videos
