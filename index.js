@@ -29,6 +29,7 @@ module.exports = function (videoId) {
 			process.stdout.write(percent + '%')
 		}
 	})
+	
 	video.on('end', () => console.log('\nFile saved to:', filePath))
 
 }
