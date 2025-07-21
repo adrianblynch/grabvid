@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/adrianblynch/grabvid#readme",
   "dependencies": {
-    "youtube-dl": "^1.10.5"
+    "youtube-dl": "^3.5.0"
   }
 }
